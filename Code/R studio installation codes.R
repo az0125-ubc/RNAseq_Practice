@@ -1,0 +1,8 @@
+install.packages("BiocManager")
+BiocManager::install("edgeR")
+BiocManager::install("DESeq2")
+library(ggplot2)
+install.packages("data.table")
+BiocManager::install(BiomaRt)
+BiocManager::install("biomaRt")
+BiocManager::install("org.Hs.eg.db")
